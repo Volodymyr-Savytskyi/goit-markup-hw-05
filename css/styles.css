@@ -557,7 +557,8 @@ address{
 }
 
 .subscribe-form {
-    
+    display: flex;
+    gap: 24px;
 }
 
 .subscribe-input {
@@ -567,11 +568,12 @@ address{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background-color: transparent;
-    padding: 16px 8px;
+    padding-left: 16px;
     font-weight: 400;
     font-size: 12px;
-    line-height: 2;
-    margin-right: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
 }
 
 .subscribe-input::placeholder {
@@ -579,7 +581,7 @@ address{
 }
 
 .input-container {
-    display: flex;
+    
     align-items: center;
     margin-top: 16px;
 }
@@ -600,15 +602,20 @@ address{
     justify-content: center;
     align-items: center;
     padding: 8px 24px;
-    gap: 16px;
     border-radius: 4px;
     color: #FFFFFF;
-    fill: #FFFFFF;
     border: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .subscribe-icon {
-
+    fill: #FFFFFF;
+    margin-left: 16px;
 }
 
 
