@@ -88,12 +88,6 @@ address{
 
 .header-span{
     color: #2E2F42;
-    font-family: 'Raleway'; 
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    margin-right: 76px;
 }
 
 .nav-link {
@@ -104,6 +98,7 @@ address{
     letter-spacing: 0.02em;
     padding: 24px 0;
     transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
 }
 .nav-link:hover, .nav-link:focus {
     color: var(--background-hover)
@@ -122,13 +117,15 @@ address{
 .header-container {
     display: flex;
     align-items: center;
-    width: 1158px;
+    padding: 0 15px;
+    max-width: 1158px;
+    margin: 0 auto;
 }
     
 .header {
     border-bottom: 1px solid #E7E9FC;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    padding: 24px 141px;
+    /* padding: 24px 141px; */
 
 }
     
@@ -176,8 +173,8 @@ address{
 
 /* ................SECTION:SOLUTION..............*/
 .solution-section{
-    background-color: var(--color-secondary);
     padding: 188px 0;
+    background-color: var(--color-secondary);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
     url(../images/people-office.jpg);
     background-repeat: no-repeat;
@@ -194,7 +191,7 @@ address{
     letter-spacing: 0.02em;
     display: flex;
     max-width: 496px;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -233,6 +230,7 @@ address{
 
 .about-section {
     padding: 120px 0;
+    
 }
 
 .about-container {
@@ -357,9 +355,7 @@ address{
     align-items: center;
     justify-content: center;
     gap: 24px;
-    margin: 0 auto;
-    margin-bottom: 32px;
-    
+    margin: 0 auto;    
 }
 
 .card-item {
@@ -528,9 +524,7 @@ address{
 .footer-list {
     display: flex;
     gap: 16px;
-    margin: 0 auto;
     margin-bottom: 32px;
-
 }
 
 .footer-item {
@@ -547,13 +541,9 @@ address{
 }
 
 .footer-icons {
-    height: 16px;
-    width: 16px;
+    height: 24px;
+    width: 24px;
     fill: #f4f4fd;
-}
-
-.subscribe-conteiner {
-
 }
 
 .subscribe-form {
@@ -817,7 +807,6 @@ address{
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-top: 48px;
     margin-bottom: 16px;
 }
 
